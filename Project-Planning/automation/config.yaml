@@ -1,10 +1,11 @@
 schema_version: "1.0"
 
 github:
-  owner: "CHANGE_ME"
-  repository: "CHANGE_ME"
-  project_number: null
-  project_title: "CHANGE_ME"
+  owner: "sherinyo"
+  repository: "backlog-singaplan-c4"
+  project_number: 4
+  project_id: "PVT_kwHOCZ67is4BiEIs"
+  project_title: "C4 - Singaplan Project Planning"
 
 paths:
   epics: "backlog/epics"
@@ -32,16 +33,17 @@ required_approval:
     - "PM"
     - "ROLE_OWNER_OR_TECH_LEAD"
 
+approval_aliases:
+  PM:
+    - "sherinyo"
+  ROLE_OWNER_OR_TECH_LEAD: []
+
 project_fields:
   status: "Status"
   priority: "Priority"
-  work_type: "Work Type"
-  role: "Role"
-  iteration: "Iteration"
   estimate: "Estimate"
   start_date: "Start Date"
   target_date: "Target Date"
-  risk: "Risk"
 
 allowed_statuses:
   - "Draft"
@@ -52,9 +54,16 @@ allowed_statuses:
   - "Synced"
   - "Verified"
 
+status_mapping:
+  Draft: "Todo"
+  Needs Refinement: "Todo"
+  Ready for Breakdown: "Todo"
+  Technical Review: "Todo"
+  Approved for Sync: "Todo"
+  Synced: "Todo"
+  Verified: "Done"
+
 priority_options:
   - "High"
   - "Medium"
   - "Low"
-  - "Deferred"
-

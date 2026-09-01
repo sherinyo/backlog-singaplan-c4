@@ -6,7 +6,7 @@ type: "User Story"
 title: "Menentukan Konteks Perjalanan"
 parent_local_id: "EP-01"
 
-status: "Draft"
+status: "Synced"
 priority: null
 estimate: null
 assignees: []
@@ -29,12 +29,13 @@ dependencies:
 planned_sub_issues: []
 
 sync:
-  mode: "draft"
-  approved_by: []
-  approved_at: null
-  github_issue_number: null
-  github_issue_url: null
-  last_synced_at: null
+  mode: "apply"
+  approved_by:
+    - "sherinyo"
+  approved_at: "2026-09-01"
+  github_issue_number: 2
+  github_issue_url: "https://github.com/sherinyo/backlog-singaplan-c4/issues/2"
+  last_synced_at: "2026-09-01T09:36:43+07:00"
 ---
 
 # [US-01] Menentukan Konteks Perjalanan

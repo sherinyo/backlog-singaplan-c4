@@ -1,5 +1,103 @@
 {
   "schema_version": "1.0",
-  "items": {}
+  "items": {
+    "EP-01": {
+      "type": "Epic",
+      "source": "backlog/epics/EP-01-perencanaan-destinasi-untuk-itinerary-harian.md",
+      "github_issue_number": 1,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/1",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41Rs0",
+      "last_synced_at": "2026-09-01T09:34:29+07:00"
+    },
+    "US-01": {
+      "type": "User Story",
+      "source": "backlog/user-stories/US-01-menentukan-konteks-perjalanan.md",
+      "parent_local_id": "EP-01",
+      "github_issue_number": 2,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/2",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41SeA",
+      "last_synced_at": "2026-09-01T09:36:43+07:00"
+    },
+    "US-02": {
+      "type": "User Story",
+      "source": "backlog/user-stories/US-02-menentukan-preferensi-harian.md",
+      "parent_local_id": "EP-01",
+      "github_issue_number": 3,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/3",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41pYI",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "PM-US02-01": {
+      "type": "Task",
+      "source": "backlog/tasks/PM-US02-01-mendefinisikan-atribut-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 4,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/4",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41pZA",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "DES-US02-01": {
+      "type": "Task",
+      "source": "backlog/tasks/DES-US02-01-mendesain-form-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 5,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/5",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41paE",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "TL-US02-01": {
+      "type": "Task",
+      "source": "backlog/tasks/TL-US02-01-mendefinisikan-data-contract-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 6,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/6",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41pbk",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "DEV-US02-01": {
+      "type": "Task",
+      "source": "backlog/tasks/DEV-US02-01-membuat-model-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 7,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/7",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41peU",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "DEV-US02-02": {
+      "type": "Task",
+      "source": "backlog/tasks/DEV-US02-02-membuat-form-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 8,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/8",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41phY",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "DEV-US02-03": {
+      "type": "Task",
+      "source": "backlog/tasks/DEV-US02-03-mengimplementasikan-validasi-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 9,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/9",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41piw",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "DEV-US02-04": {
+      "type": "Task",
+      "source": "backlog/tasks/DEV-US02-04-menyimpan-dan-mengubah-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 10,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/10",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41pkI",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    },
+    "QA-US02-01": {
+      "type": "Task",
+      "source": "backlog/tasks/QA-US02-01-menguji-preferensi-harian.md",
+      "parent_local_id": "US-02",
+      "github_issue_number": 11,
+      "github_issue_url": "https://github.com/sherinyo/backlog-singaplan-c4/issues/11",
+      "github_project_item_id": "PVTI_lAHOCZ67is4BiEIszg41pk4",
+      "last_synced_at": "2026-09-01T10:42:01+07:00"
+    }
+  }
 }
-

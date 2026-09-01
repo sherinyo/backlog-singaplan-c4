@@ -6,7 +6,7 @@ type: "Epic"
 title: "Perencanaan Destinasi untuk Itinerary Harian"
 parent_local_id: null
 
-status: "Draft"
+status: "Synced"
 priority: null
 estimate: null
 assignees: []
@@ -17,16 +17,8 @@ labels:
   - "epic"
 
 dependencies:
-  blocked_by:
-    - "Ketersediaan dan struktur data destinasi."
-    - "Kesepakatan mengenai atribut budget, accessibility, dan experience."
-    - "Hasil validasi feasibility bersama tim teknis."
-  blocking:
-    - "US-01"
-    - "US-02"
-    - "US-03"
-    - "US-04"
-    - "US-05"
+  blocked_by: []
+  blocking: []
 
 children:
   - "US-01"
@@ -36,12 +28,13 @@ children:
   - "US-05"
 
 sync:
-  mode: "draft"
-  approved_by: []
-  approved_at: null
-  github_issue_number: null
-  github_issue_url: null
-  last_synced_at: null
+  mode: "apply"
+  approved_by:
+    - "sherinyo"
+  approved_at: "2026-09-01"
+  github_issue_number: 1
+  github_issue_url: "https://github.com/sherinyo/backlog-singaplan-c4/issues/1"
+  last_synced_at: "2026-09-01T09:34:29+07:00"
 ---
 
 # [EP-01] Perencanaan Destinasi untuk Itinerary Harian
@@ -69,7 +62,7 @@ Traveler dapat menentukan konteks perjalanan, memasukkan preferensi harian, memb
 - Menentukan preferensi destinasi untuk satu hari.
 - Mencari atau memilih kandidat destinasi.
 - Membandingkan minimal tiga kandidat destinasi.
-- Membandingkan berdasarkan budget, accessibility, dan experience.
+- Membandingkan destinasi berdasarkan budget, accessibility, dan experience.
 - Menampilkan informasi yang tidak tersedia secara transparan.
 - Memilih destinasi dari hasil perbandingan.
 - Memasukkan destinasi terpilih ke itinerary harian.
@@ -92,18 +85,18 @@ Traveler dapat menentukan konteks perjalanan, memasukkan preferensi harian, memb
 - [ ] Traveler dapat memilih satu destinasi dari hasil perbandingan.
 - [ ] Traveler dapat memasukkan destinasi terpilih ke hari yang sesuai dalam itinerary.
 
+## Validation Needed
+
+- Ketersediaan dan struktur data destinasi perlu diverifikasi.
+- Definisi atribut budget, accessibility, dan experience perlu disepakati.
+- Feasibility solusi perlu divalidasi bersama tim teknis.
+
 ## Dependencies
 
 ### Blocked By
 
-- Ketersediaan dan struktur data destinasi.
-- Kesepakatan mengenai atribut budget, accessibility, dan experience.
-- Hasil validasi feasibility bersama tim teknis.
+- None.
 
 ### Blocking
 
-- US-01 — Menentukan Konteks Perjalanan.
-- US-02 — Menentukan Preferensi Harian.
-- US-03 — Mencari Kandidat Destinasi.
-- US-04 — Membandingkan Destinasi.
-- US-05 — Memilih dan Memasukkan Destinasi ke Itinerary.
+- None.

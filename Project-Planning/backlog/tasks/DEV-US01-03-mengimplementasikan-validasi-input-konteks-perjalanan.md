@@ -9,7 +9,7 @@ parent_local_id: "US-01"
 role: "Developer"
 category: "Development"
 
-status: "Draft"
+status: "Synced"
 priority: "High"
 estimate: null
 assignees: []
@@ -33,12 +33,12 @@ related_acceptance_criteria:
   - "AC-01-4"
 
 sync:
-  mode: "draft"
-  approved_by: []
-  approved_at: null
-  github_issue_number: null
-  github_issue_url: null
-  last_synced_at: null
+  mode: "apply"
+  approved_by: ["sherinyo"]
+  approved_at: "2026-09-01"
+  github_issue_number: 14
+  github_issue_url: "https://github.com/sherinyo/backlog-singaplan-c4/issues/14"
+  last_synced_at: "2026-09-01T10:48:31+07:00"
 ---
 
 # [DEV-US01-03] Mengimplementasikan Validasi Input Konteks Perjalanan

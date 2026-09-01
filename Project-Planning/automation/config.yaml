@@ -1,0 +1,60 @@
+schema_version: "1.0"
+
+github:
+  owner: "CHANGE_ME"
+  repository: "CHANGE_ME"
+  project_number: null
+  project_title: "CHANGE_ME"
+
+paths:
+  epics: "backlog/epics"
+  user_stories: "backlog/user-stories"
+  tasks: "backlog/tasks"
+  sync_map: "automation/sync-map.json"
+
+sync:
+  default_mode: "dry-run"
+  require_approval: true
+  create_parent_relationships: true
+  create_dependencies: true
+  update_project_fields: true
+  allow_delete: false
+  allow_archive: false
+
+required_status_for_apply: "Approved for Sync"
+
+required_approval:
+  epic:
+    - "PM"
+  user_story:
+    - "PM"
+  task:
+    - "PM"
+    - "ROLE_OWNER_OR_TECH_LEAD"
+
+project_fields:
+  status: "Status"
+  priority: "Priority"
+  work_type: "Work Type"
+  role: "Role"
+  iteration: "Iteration"
+  estimate: "Estimate"
+  start_date: "Start Date"
+  target_date: "Target Date"
+  risk: "Risk"
+
+allowed_statuses:
+  - "Draft"
+  - "Needs Refinement"
+  - "Ready for Breakdown"
+  - "Technical Review"
+  - "Approved for Sync"
+  - "Synced"
+  - "Verified"
+
+priority_options:
+  - "High"
+  - "Medium"
+  - "Low"
+  - "Deferred"
+

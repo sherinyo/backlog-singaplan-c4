@@ -11,6 +11,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		866D49FB3045284B0011B798 /* Project-Planning */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Project-Planning";
+			sourceTree = "<group>";
+		};
 		86E96E7130451EF600864BD5 /* backlog-singaplan */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "backlog-singaplan";
@@ -34,6 +39,7 @@
 			children = (
 				86E96E7130451EF600864BD5 /* backlog-singaplan */,
 				86E96E7030451EF600864BD5 /* Products */,
+				866D49FB3045284B0011B798 /* Project-Planning */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +67,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				866D49FB3045284B0011B798 /* Project-Planning */,
 				86E96E7130451EF600864BD5 /* backlog-singaplan */,
 			);
 			name = "backlog-singaplan";
